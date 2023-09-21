@@ -19,10 +19,10 @@
 		margin-top: 3.125em;
 	}
 
-	h2 {
+	h2{
+		font-weight: normal;
 		font-size: 1.75em;
 		width: 75%;
-		font-weight: normal;
 	}
 
 	input {

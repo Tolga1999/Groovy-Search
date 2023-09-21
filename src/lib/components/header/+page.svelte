@@ -19,10 +19,12 @@
 		align-items: flex-end;
 		margin-top: 1.875em;
 	}
+	
 	img {
 		width: 4.5em;
 		margin-right: 1em;
 	}
+	
 	.logo {
 		font-size: 1.4em;
 		margin-bottom: 0.5em;

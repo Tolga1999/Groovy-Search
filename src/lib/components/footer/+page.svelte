@@ -14,14 +14,14 @@
 
 <style>
 	footer {
-		position: relative;
+		/* position: relative; */
 		width: 100%;
 		left: 0px;
 		bottom: 0;
 		padding: 1.2rem 0rem 0rem 1.2rem;
 		background-color: rgb(217, 217, 217);
 		color: rgb(0, 0, 0);
-		margin-top: 50px;
+		margin-top: 70px;
 		display: grid;
 		grid-template-columns: 0.8fr 1.2fr;
 		grid-template-rows: 1fr 1fr;
@@ -32,6 +32,7 @@
 	}
 
 	.title {
+		font-weight: nomral;
 		grid-area: title;
 		font-size: 28px;
 		width: 75%;

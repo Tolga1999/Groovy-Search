@@ -16,7 +16,7 @@
 				<div class="image-container">
 					<img src={item.members.data.image.url} alt="" />
 				</div>
-				<p>{item.members.data.title}</p>
+				<h3>{item.members.data.title}</h3>
 			</a>
 		</section>
 	{/each}
@@ -56,9 +56,12 @@
 		display: flex;
 	}
 
-	p {
+	h3 {
+		position: relative;
 		font-size: 1.25em;
 		margin-top: 0.5em;
+		font-weight: normal;
+		color: black;
 	}
 
 	img {

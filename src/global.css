@@ -9,34 +9,25 @@
 	scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
 @font-face {
 	font-family: groovy;
 	src: url('./lib/assets/AbstractGroovy-K7Zdy.ttf');
+}
+
+@font-face{
+  font-family: poppins;
+  src: url('./lib/assets/Poppins-SemiBold.ttf');
 }
 
 html,
 body,
 button,
 input {
-  cursor: url("/src/lib/assets/Cursor.svg"), auto;
-  display: flex;
-  flex-direction: column;
-  font-family: groovy, sans-serif;
-  /*  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.tv-static {
-  width: 500px;
-  height: 300px;
-  margin: auto;
-  background-image: repeating-conic-gradient(white, black 0.00085%);
-  animation: back 25s linear infinite;*/
-
-  background-color: #C8C8C8;
+	cursor: url('/src/lib/assets/Cursor.svg'), auto;
+	display: flex;
+	flex-direction: column;
+	font-family: groovy, sans-serif;
+	background-color: #c8c8c8;
 }
 
 /* DIT IS DE GRAIN BACKGROUND */
@@ -104,10 +95,6 @@ input {
 	}
 }
 
-/* body{
-  padding: 0 2em;
-} */
-
 /* IPV body padding */
 .header,
 .call-to-action-container,
@@ -134,7 +121,8 @@ h2 {
 p {
 	font-size: 18px;
 	color: var(--text);
-	font-family: 'Poppins', sans-serif;
+	font-family: poppins, sans-serif;
+  line-height: 1.6;
 }
 
 /* SCRIPT CSS */

@@ -13,6 +13,7 @@
 
 <style>
 	h1{
+		font-weight: normal;
 		font-size: 2.5em;
 		text-align: center;
 		margin-top: 50px;

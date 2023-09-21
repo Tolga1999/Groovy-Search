@@ -13,7 +13,7 @@
 <Header data={data.data2} />
 
 <section>
-	<div class="grain"></div>
+	<!-- <div class="grain"></div> -->
 	<h1>{data.data1.slices[0].primary.heading_1}!</h1>
 
 	<img id="image" src={data.data1.image.url} alt="" />
@@ -52,25 +52,30 @@
 <style>
 	section {
 		text-align: center;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin: 0 2.9em;
 	}
 
 	h1 {
 		margin-top: 3rem;
 		font-size: 2.5rem;
 		margin-bottom: 1rem;
+		font-weight: normal;
 	}
 
 	#image {
 		width: 17rem;
+		height: 18rem;
+		/* width: 10em;
+		height: 11em; */
+		object-fit: cover;
 		filter: saturate(0);
 		border: 1em solid #a8a8a8;
 	}
 
 	h2 {
 		margin-top: 1rem;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1.65rem;
+		font-weight: normal;
 	}
 
 	ul {
@@ -97,26 +102,32 @@
 	}
 
 	li {
-		margin-left: 2rem;
-		margin-top: 1.6rem;
+		margin-left: 2.2rem;
+		/* margin-top: 1.6rem; */
 		margin-bottom: 1.6rem;
 		text-align: left;
 	}
 
 	#second-header {
+		margin-top: 0;
+		margin-bottom: 0;
 		text-align: left;
 		padding: 1rem;
-		margin-top: -0.5rem;
-		margin-bottom: -0.8rem;
+		padding-left: 0;
 	}
 
 	p {
 		text-align: left;
-		padding: 1rem;
+		padding: 1rem 0;
+		padding-bottom: 0;
+		padding-top: 0;
+		margin-top: 0;
+		margin-bottom: 1.55em;
 	}
 
 	#image2 {
-		width: 18rem;
+		width: 100%;
+		max-width: 25em;
 		filter: saturate(0);
 	}
 
