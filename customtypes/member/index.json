@@ -35,6 +35,9 @@
 				"fieldset": "Slice Zone",
 				"config": {
 					"choices": {
+						"search_container": {
+							"type": "SharedSlice"
+						},
 						"member_about_container": {
 							"type": "SharedSlice"
 						}

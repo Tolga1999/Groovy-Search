@@ -39,6 +39,12 @@
 	<p>{data.data1.slices[0].primary.paragraph_more_about}</p>
 
 	<img id="image2" src={data.data1.slices[0].primary.image_more_about.url} />
+
+	<section class="search">
+		<h2>{data.data1.slices[1]?.primary.search_title}</h2>
+		<input type="text" placeholder={data.data1.slices[1]?.primary.input_placeholder}>
+		<img src={data.data1.slices[1].primary.input_svg.url} alt="">
+	</section>
 </section>
 
 <Footer data={data.data2} />
@@ -112,5 +118,36 @@
 	#image2 {
 		width: 18rem;
 		filter: saturate(0);
+	}
+
+	/* search */
+	.search{
+		margin: 0;
+		margin-top: 3.125em;
+	}
+
+	.search h2{
+		text-align: left;
+	}
+
+	input{
+		background-color: white;
+		padding: 1.5em 1em;
+		border: none;
+		border-radius: 1.5em;
+		width: 100%;
+		margin-top: 1em;
+		font-size: 1em;
+	}
+
+	input::placeholder{
+		padding-left: 0.5em;
+		font-size: 1.125em;
+	}
+
+	.search img{
+		position: absolute;
+		right: 3.25em;
+		transform: translateY(-3.5em);
 	}
 </style>
