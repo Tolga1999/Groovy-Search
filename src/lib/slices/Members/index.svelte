@@ -11,7 +11,7 @@
 	data-slice-variation={slice.variation}
 >
 	{#each slice.items as item}
-		<section>
+		<section class="member">
 			<a href={item.members.uid}>
 				<div class="image-container">
 					<img src={item.members.data.image.url} alt="" />
@@ -30,7 +30,7 @@
 		position: relative;
 		z-index: 2;
 		scrollbar-width: none;
-		-ms-overflow-style: none; 
+		-ms-overflow-style: none;
 	}
 	.all-members::-webkit-scrollbar {
 		width: 0;

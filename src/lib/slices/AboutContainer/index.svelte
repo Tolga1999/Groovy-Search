@@ -1,7 +1,6 @@
 <script>
 	/** @type {import("@prismicio/client").Content.AboutContainerSlice} */
 	export let slice;
-	console.log(slice);
 </script>
 
 <section
@@ -9,8 +8,7 @@
 	data-slice-type={slice.slice_type}
 	data-slice-variation={slice.variation}
 >
-<div class="grain"></div>
-	<!-- Placeholder component for {slice.slice_type} (variation: {slice.variation}) Slices -->
+<!-- <div class="grain"></div> -->
 
 	<h2>{slice.primary.about_title}</h2>
 	<p>{slice.primary.about_text}</p>
