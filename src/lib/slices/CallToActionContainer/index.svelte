@@ -6,13 +6,13 @@
 </script>
 
 <section class="call-to-action-container" data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
-	<p>{slice.primary.call_to_action_heading}</p>
+	<h1 class= first-heading>{slice.primary.call_to_action_heading}</h1>
 	<img src={slice.primary.call_to_action_image.url} alt="">
 	<button>{slice.primary.search_button}</button>
 </section>
 
 <style>
-	p{
+	h1{
 		font-size: 2.5em;
 		text-align: center;
 		margin-top: 50px;

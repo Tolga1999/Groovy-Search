@@ -26,7 +26,7 @@
 	.all-members {
 		display: flex;
 		overflow-x: scroll;
-		margin: 2em 0 1.125em 0;
+		margin: 2em 0 -2.125em 0;
 		position: relative;
 		z-index: 2;
 		scrollbar-width: none;

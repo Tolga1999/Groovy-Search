@@ -1,19 +1,19 @@
 :root {
-  --text: rgba(0, 0, 0, 1);
+	--text: rgba(0, 0, 0, 1);
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 @font-face {
-  font-family: groovy;
-  src: url("./lib/assets/AbstractGroovy-K7Zdy.ttf");
+	font-family: groovy;
+	src: url('./lib/assets/AbstractGroovy-K7Zdy.ttf');
 }
 
 html,
@@ -41,77 +41,67 @@ input {
 
 /* DIT IS DE GRAIN BACKGROUND */
 .grain {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
 
-  &:before {
-    content: "";
-    top: -10rem;
-    left: -10rem;
-    width: calc(100% + 20rem);
-    height: calc(100% + 20rem);
-    position: fixed;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
-    opacity: 0.25;
-    pointer-events: none;
-    -webkit-animation: noise 1s steps(2) infinite;
-    animation: noise 1s steps(2) infinite;
-  }
+	&:before {
+		content: '';
+		top: -10rem;
+		left: -10rem;
+		width: calc(100% + 20rem);
+		height: calc(100% + 20rem);
+		position: fixed;
+		background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Image_gaussian_noise_example.png);
+		opacity: 0.25;
+		pointer-events: none;
+		-webkit-animation: noise 1s steps(2) infinite;
+		animation: noise 1s steps(2) infinite;
+	}
 
-  @-webkit-keyframes noise {
-    to {
-      transform: translate3d(-7rem, 0, 0)
-    }
-  }
+	@-webkit-keyframes noise {
+		to {
+			transform: translate3d(-7rem, 0, 0);
+		}
+	}
 
-  @keyframes noise {
-    0% {
-      transform: translate3d(0, 9rem, 0)
-    }
-
-    10% {
-      transform: translate3d(-1rem, -4rem, 0)
-    }
-
-    20% {
-      transform: translate3d(-8rem, 2rem, 0)
-    }
-
-    30% {
-      transform: translate3d(9rem, -9rem, 0)
-    }
-
-    40% {
-      transform: translate3d(-2rem, 7rem, 0)
-    }
-
-    50% {
-      transform: translate3d(-9rem, -4rem, 0)
-    }
-
-    60% {
-      transform: translate3d(2rem, 6rem, 0)
-    }
-
-    70% {
-      transform: translate3d(7rem, -8rem, 0)
-    }
-
-    80% {
-      transform: translate3d(-9rem, 1rem, 0)
-    }
-
-    90% {
-      transform: translate3d(6rem, -5rem, 0)
-    }
-
-    to {
-      transform: translate3d(-7rem, 0, 0)
-    }
-  }
+	@keyframes noise {
+		0% {
+			transform: translate3d(0, 9rem, 0);
+		}
+		10% {
+			transform: translate3d(-1rem, -4rem, 0);
+		}
+		20% {
+			transform: translate3d(-8rem, 2rem, 0);
+		}
+		30% {
+			transform: translate3d(9rem, -9rem, 0);
+		}
+		40% {
+			transform: translate3d(-2rem, 7rem, 0);
+		}
+		50% {
+			transform: translate3d(-9rem, -4rem, 0);
+		}
+		60% {
+			transform: translate3d(2rem, 6rem, 0);
+		}
+		70% {
+			transform: translate3d(7rem, -8rem, 0);
+		}
+		80% {
+			transform: translate3d(-9rem, 1rem, 0);
+		}
+		90% {
+			transform: translate3d(6rem, -5rem, 0);
+		}
+		to {
+			transform: translate3d(-7rem, 0, 0);
+		}
+	}
 }
 
 /* body{
@@ -122,29 +112,29 @@ input {
 .header,
 .call-to-action-container,
 .search-container {
-  padding: 0 2em;
+	padding: 0 2em;
 }
 
 .all-members {
-  padding: 0 0 0 2em;
+	padding: 0 0 0 2em;
 }
 
 /* IPV body padding */
 
 h1 {
-  font-size: 40px;
-  color: var(--text);
+	font-size: 40px;
+	color: var(--text);
 }
 
 h2 {
-  font-size: 28px;
-  color: var(--text);
+	font-size: 28px;
+	color: var(--text);
 }
 
 p {
-  font-size: 18px;
-  color: var(--text);
-  font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	color: var(--text);
+	font-family: 'Poppins', sans-serif;
 }
 
 /* SCRIPT CSS */
