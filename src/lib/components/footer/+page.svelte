@@ -26,7 +26,6 @@
 		grid-template-columns: 0.8fr 1.2fr;
 		grid-template-rows: 1fr 1fr;
 		grid-auto-columns: 1fr;
-		gap: 0px 0px;
 		grid-auto-flow: row;
 		grid-template-areas: 'title title' 'img link';
 	}
@@ -41,7 +40,6 @@
 
 	.img {
 		grid-area: img;
-		text-align: center;
 	}
 
 	.link {
@@ -59,5 +57,15 @@
 	.title, .img, .link{
 		position: relative;
 		z-index: 2;
+	}
+
+	@media (min-width: 700px) {
+		footer{
+			grid-template-columns: 0.25fr 1.5fr;
+		}
+
+		.link{
+			font-size: 1.25em;
+		}
 	}
 </style>

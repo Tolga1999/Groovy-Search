@@ -33,6 +33,7 @@
 		border: none;
 		border-radius: 1.5em;
 		width: 100%;
+		max-width: 30em;
 		margin-top: 1em;
 		font-size: 1em;
 		z-index: 2;
@@ -52,5 +53,11 @@
 
 	input, input::placeholder{
 		position: relative;
+	}
+
+	@media (min-width: 700px) {
+		img {
+			display: none;
+		}
 	}
 </style>

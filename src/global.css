@@ -14,9 +14,9 @@
 	src: url('./lib/assets/AbstractGroovy-K7Zdy.ttf');
 }
 
-@font-face{
-  font-family: poppins;
-  src: url('./lib/assets/Poppins-SemiBold.ttf');
+@font-face {
+	font-family: poppins;
+	src: url('./lib/assets/Poppins-SemiBold.ttf');
 }
 
 html,
@@ -30,7 +30,10 @@ input {
 	background-color: #c8c8c8;
 }
 
-h1, h2, p, button{
+h1,
+h2,
+p,
+button {
 	position: relative;
 	z-index: 2;
 }
@@ -45,6 +48,7 @@ h1, h2, p, button{
 .all-members {
 	padding: 0 0 0 2em;
 }
+
 /* IPV body padding */
 
 h1 {
@@ -61,12 +65,12 @@ p {
 	font-size: 18px;
 	color: var(--text);
 	font-family: poppins, sans-serif;
-  line-height: 1.6;
+	line-height: 1.6;
 }
 
 /* SCRIPT CSS */
 .container-off {
-  display: none;
+	display: none;
 }
 
 /* DIT IS DE GRAIN BACKGROUND */
@@ -102,36 +106,45 @@ p {
 		0% {
 			transform: translate3d(0, 9rem, 0);
 		}
+
 		10% {
 			transform: translate3d(-1rem, -4rem, 0);
 		}
+
 		20% {
 			transform: translate3d(-8rem, 2rem, 0);
 		}
+
 		30% {
 			transform: translate3d(9rem, -9rem, 0);
 		}
+
 		40% {
 			transform: translate3d(-2rem, 7rem, 0);
 		}
+
 		50% {
 			transform: translate3d(-9rem, -4rem, 0);
 		}
+
 		60% {
 			transform: translate3d(2rem, 6rem, 0);
 		}
+
 		70% {
 			transform: translate3d(7rem, -8rem, 0);
 		}
+
 		80% {
 			transform: translate3d(-9rem, 1rem, 0);
 		}
+
 		90% {
 			transform: translate3d(6rem, -5rem, 0);
 		}
+
 		to {
 			transform: translate3d(-7rem, 0, 0);
 		}
 	}
 }
-
